@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Zen Dots', cursive;
+    background:#e84118;
+    background-image:url(https://images4.alphacoders.com/936/thumb-1920-936378.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    
+}
+li{
+    display:inline;
+    color:rgb(255, 255, 255);
+    padding:40px;
+    font-family: 'Zen Dots', cursive;
+}
+li:hover{
+    text-decoration: underline;
+    color:rgb(114, 114, 114)
+    
+}
+.main-text__main{
+    color:rgb(255, 255, 255);
+    text-align:center;
+    width: 650px;
+    height: auto;
+    margin: 10% auto;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 15px;
+    -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+    box-shadow:  0px 0px 10px 0px #f5f5f5;  
+  }
+  .main-link{
+    text-decoration:none;
+    color:yellowgreen;
+  }
+  .main-link:hover{
+      color:rgb(255, 255, 255);
+  }
+  .my-link{
+      color:white;
+  }
+  .contactme{
+    display:flex;
+    justify-content: center;
+    color:bisque; 
+  }
+  @media only screen and (min-width: 768px){
+     /* For desktop: */
+     .main-text__main{
+         padding:20px 12px;
+     }
+  }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .main-text__main{
+        padding:20px 12px;
+    }
+}
